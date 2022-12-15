@@ -1,0 +1,48 @@
+
+
+.container {
+    display: flex;
+    margin-top: 2em;
+}
+
+.comp {
+    width: 30%;
+    height: 100%;
+    margin: 2em;
+    border-radius: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+    .container { 
+        display: block;
+        margin-top: 5em;
+    }
+    .comp {
+        width: 100%;
+        height: 100%;
+        margin: 3em auto;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .container {
+        display: block;
+        margin-top: 5em;
+    }
+    .comp {
+        width: 70%;
+        height: 100%;
+        margin: 3em auto;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .container {
+        display: flex;
+        margin-top: 5em;
+    }
+    .comp {
+        width: 40%;
+        height: 100%;
+        margin: 3em auto;
+    }
+}
+
